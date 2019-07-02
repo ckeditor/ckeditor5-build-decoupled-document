@@ -1,0 +1,275 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="AUTODETECT_INDENTS" value="false" />
+    <option name="RIGHT_MARGIN" value="150" />
+    <CssCodeStyleSettings>
+      <option name="HEX_COLOR_UPPER_CASE" value="true" />
+      <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
+      <option name="BLANK_LINES_BETWEEN_BLOCKS" value="0" />
+      <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
+    </CssCodeStyleSettings>
+    <DB2CodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </DB2CodeStyleSettings>
+    <DerbyCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </DerbyCodeStyleSettings>
+    <H2CodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </H2CodeStyleSettings>
+    <HSQLCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </HSQLCodeStyleSettings>
+    <JSCodeStyleSettings version="0">
+      <option name="FORCE_SEMICOLON_STYLE" value="true" />
+      <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACKETS" value="true" />
+      <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
+      <option name="USE_DOUBLE_QUOTES" value="false" />
+      <option name="FORCE_QUOTE_STYlE" value="true" />
+      <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
+      <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
+      <option name="SPACES_WITHIN_IMPORTS" value="true" />
+      <option name="SPACE_BEFORE_ASYNC_ARROW_LPAREN" value="false" />
+      <option name="SPACES_WITHIN_INTERPOLATION_EXPRESSIONS" value="true" />
+    </JSCodeStyleSettings>
+    <MSSQLCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </MSSQLCodeStyleSettings>
+    <MySQLCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </MySQLCodeStyleSettings>
+    <OracleCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </OracleCodeStyleSettings>
+    <PHPCodeStyleSettings>
+      <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
+      <option name="LOWER_CASE_NULL_CONST" value="true" />
+      <option name="ELSE_IF_STYLE" value="COMBINE" />
+      <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
+      <option name="KEEP_BLANK_LINES_AFTER_LBRACE" value="1" />
+      <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
+    </PHPCodeStyleSettings>
+    <PostgresCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </PostgresCodeStyleSettings>
+    <SQLiteCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </SQLiteCodeStyleSettings>
+    <SqlCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </SqlCodeStyleSettings>
+    <SybaseCodeStyleSettings version="2">
+      <option name="QUERY_EL_COMMA" value="2" />
+      <option name="WITH_EL_LINE" value="101" />
+      <option name="SELECT_EL_LINE" value="101" />
+      <option name="SELECT_EL_COMMA" value="2" />
+      <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
+      <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="1" />
+      <option name="SELECT_ALIGN_AS" value="false" />
+      <option name="FROM_WRAP_ON" value="true" />
+      <option name="FROM_INDENT_JOIN" value="false" />
+      <option name="FROM_PLACE_ON" value="10" />
+      <option name="TABLE_OPENING" value="1" />
+      <option name="TABLE_CONTENT" value="2" />
+      <option name="TABLE_CLOSING" value="3" />
+      <option name="TABLE_TYPES_ALIGN" value="false" />
+      <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+      <option name="TABLE_ALTER_INSTRUCTION_WRAP" value="2" />
+    </SybaseCodeStyleSettings>
+    <codeStyleSettings language="JSON">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="4" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+      <option name="RIGHT_MARGIN" value="140" />
+      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+      <option name="SPACE_WITHIN_PARENTHESES" value="true" />
+      <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
+      <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
+      <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <option name="IF_BRACE_FORCE" value="3" />
+      <option name="DOWHILE_BRACE_FORCE" value="3" />
+      <option name="WHILE_BRACE_FORCE" value="3" />
+      <option name="FOR_BRACE_FORCE" value="3" />
+      <indentOptions>
+        <option name="USE_TAB_CHARACTER" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="PHP">
+      <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
+      <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
+      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+      <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+      <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
+      <option name="CLASS_BRACE_STYLE" value="1" />
+      <option name="METHOD_BRACE_STYLE" value="1" />
+      <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+      <option name="CALL_PARAMETERS_WRAP" value="1" />
+      <option name="METHOD_PARAMETERS_WRAP" value="5" />
+      <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+      <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_WRAP" value="5" />
+      <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+      <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+      <option name="IF_BRACE_FORCE" value="3" />
+      <option name="DOWHILE_BRACE_FORCE" value="3" />
+      <option name="WHILE_BRACE_FORCE" value="3" />
+      <option name="FOR_BRACE_FORCE" value="3" />
+      <indentOptions>
+        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+</component>

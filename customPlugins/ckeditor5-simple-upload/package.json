@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "ckeditor5-simple-upload@1.0.4",
+      "/dados/www/faturamais-felipe/vendor/ckeditor5-build-decoupled-document"
+    ]
+  ],
+  "_from": "ckeditor5-simple-upload@1.0.4",
+  "_id": "ckeditor5-simple-upload@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-NIBX8pMh2hgSeZGv9sXSE6+zQOu4LNaSQh3SAifMoum435z/Hef0X+V5WbB5dtZ0a1c8VZye+LtUbzT5iRWuXw==",
+  "_location": "/ckeditor5-simple-upload",
+  "_phantomChildren": {
+    "lodash-es": "4.17.11"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ckeditor5-simple-upload@1.0.4",
+    "name": "ckeditor5-simple-upload",
+    "escapedName": "ckeditor5-simple-upload",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ckeditor5-simple-upload/-/ckeditor5-simple-upload-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/dados/www/faturamais-felipe/vendor/ckeditor5-build-decoupled-document",
+  "author": {
+    "name": "pourquoi"
+  },
+  "bugs": {
+    "url": "https://github.com/pourquoi/ckeditor5-simple-upload/issues"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^10.0.0",
+    "@ckeditor/ckeditor5-engine": "^10.0.0",
+    "@ckeditor/ckeditor5-upload": "^10.0.0"
+  },
+  "description": "Standart image upload plugin for ckeditor5",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-editor-classic": "^10.0.0",
+    "@ckeditor/ckeditor5-utils": "^10.0.0"
+  },
+  "files": [
+    "src",
+    "theme"
+  ],
+  "homepage": "https://github.com/pourquoi/ckeditor5-simple-upload#readme",
+  "keywords": [
+    "ckeditor5",
+    "image"
+  ],
+  "license": "MIT",
+  "name": "ckeditor5-simple-upload",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pourquoi/ckeditor5-simple-upload.git"
+  },
+  "version": "1.0.4"
+}
