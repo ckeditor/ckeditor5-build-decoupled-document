@@ -13,6 +13,7 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
+import BasicStylesUI from '@ckeditor/ckeditor5-basic-styles/src/basicstylesui';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
@@ -38,6 +39,36 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
+import { createDropdown, addToolbarToDropdown } from '@ckeditor/ckeditor5-ui/src/dropdown/utils';
+import plusIcon from '@ckeditor/ckeditor5-core/theme/icons/plus.svg';
+
+function InsertTools( editor ) {
+	const componentFactory = editor.ui.componentFactory;
+
+	componentFactory.add( 'insertTools', locale => {
+		const dropdownView = createDropdown( locale );
+
+		addToolbarToDropdown( dropdownView, [
+			'insertTable',
+			'mediaEmbed',
+			'blockquote',
+			'imageUpload',
+		].filter( name => {
+			return componentFactory.has( name );
+		} ).map( name => {
+			return componentFactory.create( name );
+		} ) );
+
+		dropdownView.buttonView.set( {
+			label: 'Insert tools',
+			tooltip: true,
+			icon: plusIcon
+		} );
+
+		return dropdownView;
+	} );
+}
+
 // Plugins to include in the build.
 DecoupledEditor.builtinPlugins = [
 	Essentials,
@@ -47,6 +78,7 @@ DecoupledEditor.builtinPlugins = [
 	Highlight,
 	UploadAdapter,
 	Autoformat,
+	BasicStylesUI,
 	Bold,
 	Italic,
 	Strikethrough,
@@ -68,7 +100,8 @@ DecoupledEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	InsertTools,
 ];
 
 // Editor configuration.
@@ -80,28 +113,19 @@ DecoupledEditor.defaultConfig = {
 			'fontsize',
 			'fontfamily',
 			'|',
-			'bold',
-			'italic',
-			'underline',
-			'strikethrough',
+			'basicStyles',
 			'highlight',
+			'link',
 			'|',
 			'alignment',
 			'|',
 			'numberedList',
 			'bulletedList',
+			'indentTools',
 			'|',
-			'indent',
-			'outdent',
+			'insertTools',
 			'|',
-			'link',
-			'blockquote',
-			'imageUpload',
-			'insertTable',
-			'mediaEmbed',
-			'|',
-			'undo',
-			'redo'
+			'undoTools'
 		]
 	},
 	image: {
